@@ -43,7 +43,7 @@ const HeroOfPythan = () => {
           </div>
         </div>
 
-        {/* Right side (hidden on small and medium devices) */}
+       
         <div className="hidden lg:block">
           <img src={Hero} alt="Hero Image" />
         </div>
@@ -54,18 +54,7 @@ const HeroOfPythan = () => {
         <div className="w-[72.5px] h-[72.5px] flex justify-center items-center">
           <img src={Phone} alt="Phone Icon" />
         </div>
-        <div className="pl-5">
-          <h2 className="text-xl font-bold">Book appointment</h2>
-          <p className="text-[10.72px] mt-2">
-            Speak with our experts about your goals
-          </p>
-          <button
-            className="mt-4 bg-blue-500 text-white py-2 px-3 rounded hover:bg-blue-600 transition duration-300"
-            aria-label="Schedule Consultation Call"
-          >
-            Schedule Now
-          </button>
-        </div>
+      
       </div>
     </div>
   );

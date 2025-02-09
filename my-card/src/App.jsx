@@ -4,6 +4,7 @@ import RightLeft from "./Components/RightLeft";
 import Features from "./Components/Features";
 import HeroOfPythan from "./Components/HeroOfPythan";
 import GoogleWorkspace from "./Components/GoogleWorkspace";
+import Windows2 from "./Components/windows2";
 function App() {
   return (
     <div >
@@ -11,7 +12,9 @@ function App() {
     <RightLeft/>
     <Features/>
     <HeroOfPythan/> */}
-   <GoogleWorkspace/>
+ <GoogleWorkspace/>
+   <Windows2/>
+
     </div>
   );
 }
